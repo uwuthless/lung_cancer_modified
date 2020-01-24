@@ -47,7 +47,7 @@ if not os.path.exists(bbox_result_path):
 
 if not skip_detect:
     margin = 32
-    sidelen = 144
+    sidelen = 80
     config1['datadir'] = prep_result_path
     split_comber = SplitComb(sidelen, config1['max_stride'], config1['stride'], margin, pad_value=config1['pad_value'])
 
